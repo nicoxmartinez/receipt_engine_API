@@ -1,0 +1,6 @@
+@receipt_engine_API_HostAddress = http://localhost:8045
+
+GET {{receipt_engine_API_HostAddress}}/test/
+Accept: application/json
+
+###

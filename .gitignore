@@ -1,0 +1,45 @@
+# Visual Studio / VS Code / JetBrains
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+appsettings.Development.json
+*.DotSettings
+
+# Compilación y archivos binarios
+bin/
+obj/
+debug/
+release/
+x64/
+x86/
+[Aa]pp_Data/
+*.rsasseca
+
+# Resultados de pruebas y cobertura
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+.sonarlint/
+
+# Paquetes NuGet
+[Pp]ackages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.asset.json
+*.nuget.props
+*.nuget.targets
+
+# Logs y bases de datos locales temporales
+*.log
+*.sqlite
+*.db
+*.db-journal
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
