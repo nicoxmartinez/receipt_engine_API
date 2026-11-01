@@ -1,0 +1,2 @@
+### Receipts Engine API
+Motor backend desarrollado en C# .NET Core para la orquestación, modelado y persistencia de comprobantes fiscales (Facturas A, B, C, Notas de Crédito y Débito). Diseñado bajo principios SOLID y Clean Architecture, integra datos de clientes y operaciones de venta aplicando patrones de diseño para el cálculo fiscal y la gestión de reglas de negocio.
