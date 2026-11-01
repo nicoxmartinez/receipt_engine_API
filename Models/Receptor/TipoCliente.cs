@@ -14,4 +14,8 @@ public class TipoCliente
     [Column("NOMBRE")]
     public string Nombre { get; set; }
 
+    public TipoCliente(string nombre)
+    {
+        Nombre = nombre;
+    }
 }

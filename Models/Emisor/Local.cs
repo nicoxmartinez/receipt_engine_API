@@ -11,8 +11,13 @@ public class Local : Tienda
     [Column("ID_DOMICILIO")]
     public Domicilio Domicilio { get; set; }
 
-    public Local(Domicilio domicilio)
+    public Local(string codigo, string descripcion, TipoTienda tipoTienda, string usuario, DateTime fechaAlta, Domicilio domicilio) : base(codigo, descripcion, tipoTienda, usuario, fechaAlta)
     {
+        Codigo = codigo;
+        Descripcion = descripcion;
+        TipoTienda = tipoTienda;
+        Usuario = usuario;
+        FechaAlta = fechaAlta;
         Domicilio = domicilio;
     }
 }

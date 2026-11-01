@@ -18,7 +18,7 @@ public abstract class Comprobante
     public TipoComprobante TipoComprobante { get; set; }
 
     [Required]
-    [Column("ID_SUBTIPO_COMPROBANTE")]  
+    [Column("ID_SUBTIPO_COMPROBANTE")]
     public SubTipoComprobante SubTipoComprobante { get; set; }
 
     [Required]
@@ -34,7 +34,7 @@ public abstract class Comprobante
     [Required]
     [Column("ID_CLIENTE")]
     public Cliente Cliente { get; set; }
-    
+
     [Required]
     [Column("MONTO_TOTAL")]
     public decimal MontoTotal { get; set; }
